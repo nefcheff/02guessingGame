@@ -23,7 +23,7 @@ def show_subpath(subpath):
     return f'Subpath {escape(subpath)}'
 
 @app.route("/gues")
-def sum_even():
+def checkNumber():
     global random_number
     # flask parameters with type and default
     n = request.args.get('n', default=1, type=int)
